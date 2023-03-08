@@ -1,0 +1,537 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Aa Damned.ttf";
+    src: url(../assets/font/Damned.ttf);
+}
+
+h1{
+    font-family: "Aa Damned.ttf";
+    color: rgb(241, 234, 234);
+    text-align: center;
+    padding: 18;
+    font-size: 4rem;
+}
+body{
+    background-color: rgb(12, 11, 11);
+    background-image: url(../assets/img/imgPortada.jpg);
+    image-orientation:;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    text-align: center;
+    
+}
+.menu{
+    background-color: rgb(51, 49, 49);
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+
+.item a{
+    color: rgb(247, 244, 244);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+/*Formato a las imagenes del index*/
+.galeria{
+    margin: 5px 10px;
+    box-shadow: 0 4px 8px 0 lightskyblue,0 6px 20px 0 rgb(0, 0, 0, 19);/* color del marco de las fotos*/
+    float: left;
+    width: 350px;
+    margin-block: 3%;
+    
+    
+}
+.galeria img{
+    width: 50%;
+    display: flex;
+    border-radius: 10px;
+    
+}
+.galeria:hover{
+    border: 1px solid rgb(248, 248, 247);
+    transform: rotate(-3deg);
+}
+.pie{
+    text-align: center;
+    /*text-shadow:2px 2px 5px rgb(255, 255, 255);*/
+    padding: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+/*---------------pie de pagina------------*/
+
+.piepagina{ 
+    background: #0f0f0f;
+    width: auto;
+    height: auto;
+    line-height: 23px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.logopie{
+    display: flex ;
+    align-items: center;
+    gap: 10px;
+}
+span{
+    font-size: 23px;
+}
+.fb{
+    background: #090a0a;
+    padding: 5px;
+    border-radius: 10px;
+    color: #a0cfeb;
+    
+}
+.wat{
+    background: #0e1110;
+    padding: 5px;
+    border-radius: 10px;
+    color: #a0cfeb;
+    
+    
+}
+.hub{
+    background: rgb(19, 18, 18);
+    padding: 5px;
+    border-radius: 10px;
+    color: #a0cfeb;
+}
+
+.pic{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    align-items: center;
+
+}
+.titulologo{ /* formato a biblioteca del terror del pie de pagina*/
+    font-size: 20px;
+    color: #a0cfeb;
+    margin-left: 10px;
+}
+.suscribete{
+    color: #a0cfeb;
+    margin-right: 20%;
+    margin-top: 1%;
+    margin-block-end: 1%;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    
+    
+}
+.derechos{
+    display: flex;
+    color: #040331;
+    padding: 7px;
+    justify-content: space-between; 
+    background-color: #a0cfeb;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+input{
+    background: none;
+    border: solid 1px #a0cfeb;
+    padding: 10px 20px;
+    color: #a0cfee;
+    
+}
+button{
+    padding: 10px 20px;
+    color: black;
+    font-size: 13px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-left: 5%;
+}
+.mensaje{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: 5%;
+}
+.tituloinferior{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: 5%;
+    color: rgb(241, 236, 236);
+    font-size: 55px;
+}
+@font-face {
+    font-family: "Aa Ancher-Personal-Use.ttf";
+    src: url(../assets/font/28\ Days\ Later.ttf);
+}
+.tituloinferior{
+    font-family: "Aa Ancher-Personal-Use.ttf";
+    src: url(../assets/font/28\ Days\ Later.ttf);
+}
+
+
+
+
+/*----------------PAGINA AUTORES-----------------------*/
+
+@font-face {
+    font-family: "Aa Ancher-Personal-Use.ttf";
+    src: url(../assets/font/Ancherr-Personal-Use.ttf);
+}
+h2{
+    font-family: "Aa Ancher-Personal-Use.ttf";
+    src: url(../assets/font/Ancherr-Personal-Use.ttf);
+    color: white;
+    text-align: lefts;
+    padding: 65;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-left: 5%;
+}
+.fondoautores{
+    background-image: url(../assets/img/portada15.jpg);
+}
+/*---------autores a detalle*/
+
+    @font-face {
+        font-family:"Aa adrip1.ttf";
+        src: url(../assets/font/adrip1.ttf);
+    }
+.skingbibio{
+    font-family: "Aa adrip1.ttf";
+    src: url(../assets/font/adrip1.ttf);
+    color: #333233;
+    font-size: 8rem;
+    line-height: normal;
+    align-items: center;
+    }
+    .soloking{
+        font-family: "Aa adrip1.ttf";
+    src: url(../assets/font/adrip1.ttf);
+    color: #b70e21;
+    font-size: 8rem;
+    line-height: normal;
+    align-items: center;
+}
+/*...............john katzenbach............*/
+.jhon-bibiografia{
+    font-family: "Aa adrip1.ttf";
+    src: url(../assets/font/adrip1.ttf);
+    color: #333233;
+    font-size: 8rem;
+    line-height: normal;
+    align-items: center;
+    }
+.solokatzenbach{
+        font-family: "Aa adrip1.ttf";
+    src: url(../assets/font/adrip1.ttf);
+    color: #b70e21;
+    font-size: 8rem;
+    line-height: normal;
+    align-items: center;
+}
+.dross-bibiografia{
+    font-family: "Aa adrip1.ttf";
+    src: url(../assets/font/adrip1.ttf);
+    color: #333233;
+    font-size: 8rem;
+    line-height: normal;
+    align-items: center;
+    }
+.solodross{
+    font-family: "Aa adrip1.ttf";
+    src: url(../assets/font/adrip1.ttf);
+    color: #b70e21;
+    font-size: 8rem;
+    line-height: normal;
+    align-items: center;
+}
+.peter-biografia{
+    font-family: "Aa adrip1.ttf";
+    src: url(../assets/font/adrip1.ttf);
+    color: #333233;
+    font-size: 8rem;
+    line-height: normal;
+    align-items: center;
+    }
+.solopeter{
+    font-family: "Aa adrip1.ttf";
+    src: url(../assets/font/adrip1.ttf);
+    color: #b70e21;
+    font-size: 8rem;
+    line-height: normal;
+    align-items: center;
+}
+
+
+    
+    
+
+.autorestitulo{
+display: grid;
+grid-template-columns: 20% 20% 20% 20%;
+background-color: #a0cfeb;
+text-align: center;
+align-items: center;
+padding: 1em;
+}
+
+
+
+
+
+.gridautores{
+    display: grid;
+    color: white;
+    line-height: 1.5em;
+    font-size: 18;
+}
+.gridautores div{
+    background-color: #757777;
+    padding: 3.5em;  
+}
+.gridautores div:hover{
+    border: 2px solid #a0cfeb;
+}
+
+
+.sk{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    float: right;
+    border-style: double;
+    opacity: .5;
+    
+}
+.jk{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    float: left;
+}
+.dr{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    float: right;
+}
+.peter{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    float: left;
+}
+
+
+
+.fuentesk{
+    padding: 1rem;
+    font-size: 15px;
+    color: rgb(153, 188, 241);
+}
+
+
+
+
+
+
+
+/*----------------PAGINA CONTACTO-----------------------*/
+
+@font-face {
+    font-family: "Aa Ancher-Personal-Use.ttf";
+    src: url(../assets/font/Ancherr-Personal-Use.ttf);
+}
+h3{
+    font-family: "Aa Ancher-Personal-Use.ttf";
+    src: url(../assets/font/Ancherr-Personal-Use.ttf);
+    color: rgb(247, 243, 243);
+    text-align: center;
+    padding: 65;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-left: 5%;  
+}
+.fondocontacto{
+    background-image: url(../assets/img/portada14.jpg);
+}
+/*----------------------FORMULARIO CONTACTO----------------*/
+.fondocontacto{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+.contiene{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.caja-contacto {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+.caja-contacto >*{
+    padding: 1em;
+}
+.formulario-contacto{
+    /*background: #222222;/*color que tapa la cara*/
+}
+.informacio-contacto{
+    background: #400369;
+    padding: 1.5rem;
+    
+}
+.formulario-contacto form p{
+    margin: 0;
+    padding: 1em;
+    
+}
+.informacio-contacto p,
+.informacio-contacto ul{
+    padding: 10px;
+    gap: 15px;
+    
+}
+.formulario-contacto form button,
+.formulario-contacto form input,
+.formulario-contacto form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    outline: 0;
+    background: none;
+    border-bottom: 1px solid #a0cfeb ;
+    color: white;
+}
+.formulario-contacto form button{
+    background: #a0cfeb;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+.formulario-contacto form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.formulario-contacto form .block{
+    grid-column: 1 / 3;
+}
+.formulario-contacto form button:hover,
+.formulario-contacto form button:focus{
+    background: rgb(243, 244, 245);
+    color: rgb(21, 31, 177);
+    outline: 0;
+}
+.formulario-contacto h10,
+.formulario-contacto ul,
+.formulario-contacto p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+.formulario-contacto ul{
+    list-style: none;
+    padding: 0;
+}
+.formulario-contacto ul li{
+    padding: 5em;
+}
+
+
+/*----------------PAGINA NOSOTROS-----------------------*/
+
+@font-face {
+    font-family: "Aa Ancher-Personal-Use.ttf";
+    src: url(../assets/font/Ancherr-Personal-Use.ttf);
+}
+h4{
+    font-family: "Aa Ancher-Personal-Use.ttf";
+    src: url(../assets/font/Ancherr-Personal-Use.ttf);
+    color: rgb(245, 242, 242);
+    text-align: left;
+    padding: 65;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-left: 5%;
+    
+}
+.textonosotros{
+    color: white;
+    width: 90%;
+    align-content: center;
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 30px;
+}
+/*----------------PAGINA TOP 3 MAS VISTOS-----------------------*/
+
+@font-face {
+    font-family: "Aa Ancher-Personal-Use.ttf";
+    src: url(../assets/font/Ancherr-Personal-Use.ttf);
+}
+h5{
+    
+    color: rgb(248, 247, 247);
+    text-align: left;
+    padding: 65;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-left: 5%;
+    
+}
+.masvistos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50rem;
+    height: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    
+
+}
+.crsl{
+    width: 50%;
+    height: 5%;
+    display: flex;
+    margin-left: 25%;
+}
+    
+    
